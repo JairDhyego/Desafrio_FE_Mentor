@@ -1,0 +1,142 @@
+@import url('https://fonts.googleapis.com/css2?family=Josefin+Slab:wght@100;300;400;600;700&family=Red+Hat+Display:wght@500;600;700;900&family=Roboto:ital,wght@0,100;0,300;0,400;1,500;1,700&display=swap');
+
+
+*{
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: 'Red Hat Display', sans-serif;
+  text-decoration: none;
+}
+
+
+body{
+  background-color: hsl(225, 100%, 98%);
+  display: flex;
+  justify-content: space-between;
+  align-items: center;   
+  background: url(../img/desktop.svg);  
+  background-repeat: no-repeat;
+  background-position: center top;
+  flex-direction: column;
+  
+}
+
+main{
+  background-color: #fff;
+  max-width: 416px;
+  border-radius: .6rem;
+  padding: .2rem;
+}
+
+main img {
+  width: 100%;
+  border-radius: .8rem .8rem 0 0;
+}
+
+main section {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  padding: 0 2rem;
+  height: 100%;
+  width: 100%;
+}
+
+section h1{
+  margin-top: 2rem;
+  margin-bottom: 1rem;
+color: hsl(223, 47%, 23%);
+}
+
+section  span{
+  color: hsl(224, 23%, 55%);
+  text-align: center;
+}
+
+main .informations{
+display: flex;
+align-items: center;
+justify-content: space-between;
+width: 100%;
+background: hsl(225, 100%, 98%);
+border-radius: 1rem;
+padding: 1.5rem 1rem;
+margin: 2rem 0;
+}
+
+.informations img{
+ 
+  width: 48px;
+}
+
+main .informations .music-price{
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.music-price .price{
+  display: flex;
+  flex-direction: column;
+}
+
+main .informations a {
+color: hsl(245, 75%, 52%);
+font-weight: 600;
+font-size: 90%;
+transition: .4s ;
+}
+
+main .informations a:hover{
+  color: hsl(223, 47%, 23%);
+ }
+
+ main button{
+   cursor: pointer;
+   padding: .5rem ;
+   border: none;
+   border-radius: .6rem;
+   font-family: "Roboto", sans-serif;
+   line-height: 1rem;
+   font-weight: 600;
+   background-color: hsl(245, 75%, 52%);
+   color: #fff;
+   text-transform: uppercase;
+   text-align: center;
+   transition: .4s;
+   width: 100%;
+   box-shadow: 0px 20px 20px rgba(56, 42, 225, 0.2);
+ }
+
+ main button:hover{
+  background-color: hsl(245, 75%, 52%, 90%);
+  letter-spacing: .1rem;  
+ }
+
+ #cancel-order {
+   color: hsl(224, 23%, 55%);
+   font-weight: 600;
+   font-size: .9rem;
+   margin-top: 1rem;
+   margin-bottom: 2rem;
+   cursor: pointer;
+ }
+
+
+footer{
+  width: 100%;
+  background-color: #242424;
+  height: 3rem;
+  /* margin-top: 14rem; */
+  bottom: 0px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  color: #fff;
+  font-size: 1rem;
+  letter-spacing: .1rem;
+  position: absolute;
+  bottom: 0;
+}
